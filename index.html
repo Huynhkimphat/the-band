@@ -9,30 +9,74 @@
 </head>
 <body>
     <div class="header">
-        <div class="header-nav">
-            <div class="header-nav-title">HOME</div>
-            <div class="header-nav-title">BAND</div>
-            <div class="header-nav-title">TOUR</div>
-            <div class="header-nav-title">BAND</div>
-            <div class="header-nav-title header-nav-expand">
+        <ul class="header-nav">
+            <li class="header-nav-title">HOME</li>
+            <li class="header-nav-title">BAND</li>
+            <li class="header-nav-title">TOUR</li>
+            <li class="header-nav-title">BAND</li>
+            <li class="header-nav-title header-nav-expand">
                 MORE <i class="fa-solid fa-caret-down"></i>
-                <div class ="header-nav-title-more">
-                    <div class = "header-nav-title-more-subtitle">Merchandise</div>
-                    <div class = "header-nav-title-more-subtitle">Extras</div>
-                    <div class = "header-nav-title-more-subtitle">Media</div>
-                </div>
-            </div>
-        </div>
+                <ul class ="header-nav-title-more">
+                    <li class = "header-nav-title-more-subtitle">Merchandise</li>
+                    <li class = "header-nav-title-more-subtitle">Extras</li>
+                    <li class = "header-nav-title-more-subtitle">Media</li>
+                </ul>
+            </li>
+        </ul>
         <div class="header-search">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
     <div class="body">
-        <div id="info"></div>
-        <div id="content"></div>
-        <div id="tour"></div>
-        <div id="contact"></div>
-        <div id="map"></div>
+        <div class="body-info">
+            <img src="https://www.w3schools.com/w3images/la.jpg" class="body-info-img">
+            <section class="body-info-content">
+                <h3>Los Angeles</h3>
+                <p>We had the best playtime at Venice Beach!</p>
+            </section>
+        </div>
+        <div class="body-band">
+            <div class="body-band-content">
+                <h2>THE BAND</h2>
+                <p class="body-band-content-subtitle">We love music</p>
+                <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="body-band-img">
+                <div class="body-band-img-mem">
+                    <p>Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="body-band-img-mem-pic">
+                </div>
+                <div class="body-band-img-mem">
+                    <p>Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="body-band-img-mem-pic">
+                </div>
+                <div class="body-band-img-mem">
+                    <p>Name</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="body-band-img-mem-pic">
+                </div>
+            </div>
+        </div>
+        <div class="body-tour">
+            <div class="body-tour-content">
+                <h2>TOUR DATES</h2>
+                <p style="color: #ccc"><i>Remmember to book your tickets!</i></p>
+                <br>
+                <ul class="body-tour-content-ul">
+                    <li>
+                        September 
+                        <span>Sold out</span>
+                    </li>
+                    <li>
+                        October 
+                        <span>Sold out</span>
+                    </li>
+                    <li>
+                        November 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="body-map"></div>
     </div>
     <div id="footer"></div>
 </body>

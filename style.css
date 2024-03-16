@@ -25,22 +25,23 @@
     color:black;
     cursor: pointer;
 }
+.header-nav-title:hover .header-nav-title-more{
+    display: block;
+}
 .header-nav-expand{
     position: relative;
 }
+
 .header-nav-title-more{
     position: absolute;
-    top:44px;
+    top: 0;
     left:0;
+    z-index: 99999;
 }
-.header-nav-title-more-subtitle{
-    padding:12px 24px;
-    background-color: white;
-    width:120px;
-}
-
 .header-nav-title-more-subtitle:hover{
+    display: block;
     cursor: pointer;
+    background-color: #ccc;
 }
 
 .header-search{
@@ -53,4 +54,119 @@
 
 .body{
     height:1000px;
+}
+.body-info {
+    display: flex;
+    position:relative;
+    margin-top: 40px;
+    max-width:auto;
+}
+.body-info-img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.body-info-content {
+    display: flexbox;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    margin-top: 39%;
+    margin-left: 38.5%;
+    margin-right: auto;
+    color: white;
+}
+
+h2, h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+}
+
+p {
+    display: block;
+    font-size: 15px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: fixed;
+}
+
+.body-band-content {
+    display: flexbox;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.body-band-content-subtitle {
+    text-align: center;
+    color:#ccc;
+    font-style: italic;
+}
+
+.body-band-img {
+    position:relative;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:28px;
+    text-align: center;
+    margin-bottom: 10%;
+    padding-block-end: 1px;
+    max-height: 70px;
+}
+
+.body-band-img-mem {
+    display: inline-block;
+    padding:1px;
+    text-align: center;
+}
+
+.body-band-img-mem-pic {
+    width:60%;
+    border-radius: 3%;
+}
+
+.body-tour {
+    display:block;
+    margin-top: 200px;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.body-tour-content {
+    display: block;
+    padding:50px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-tour-content-ul {
+    display: block;
+    color:#ccc;
+    background-color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    border: 1px solid;  
+    box-sizing: inherit;
+    padding-inline-start: 40px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5;
 }
