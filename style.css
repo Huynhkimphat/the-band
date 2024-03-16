@@ -12,7 +12,8 @@
     position: fixed;
     top:0;
     right:0;
-    left: 0;
+    left:0;
+    z-index: 999999;
 }
 .header-nav{
     display: flex;
@@ -33,13 +34,14 @@
     top:44px;
     left:0;
 }
-.header-nav-title-more-subtitle{
+.header-nav-title-more-subtitle:hover{
     padding:12px 24px;
     background-color: white;
     width:120px;
 }
 
 .header-nav-title-more-subtitle:hover{
+    background-color: #ccc;
     cursor: pointer;
 }
 
@@ -53,4 +55,85 @@
 
 .body{
     height:1000px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+
+p{
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+}
+
+h3{
+    font-size:30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    letter-spacing: 4px;
+}
+
+.body-info-title{
+    color:white;
+    position: relative;
+}
+
+.body-info-title-more{
+    color:white;
+    position: relative;
+}
+
+.center{
+    bottom: 120px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:68%;
+    margin:auto;
+}
+
+.body-content-subtitle{
+    margin: 10px;
+    text-align: justify;
+}
+
+.body-content-title-more{
+    margin: 10px;
+    color:grey;
+}
+
+.body-tour-title{
+    color: white;
+    letter-spacing: 4px;
+}
+
+.body-tour-title-more{
+    color:grey;
+}
+
+.body-contact-title{
+    letter-spacing: 4px;
+}
+
+.body-contact-title-more{
+    color:grey;
+}
+
+.body-tour{
+    margin-top: 40px;
+    background-color:black;
+    height: 40vh;
+}
+
+.body-tour-title{
+    padding-top: 40px;
 }
